@@ -3,8 +3,7 @@
 ## About The Project
 The source code of the pre-print: Pathway-informed deep learning model for survival analysis and pathological classification of gliomas
 
-[Intro.pdf](https://github.com/ciceklab/PiDeeL/blob/main/system_figure.pdf).
-
+![alt text]([http://url/to/img.png](https://github.com/ciceklab/PiDeeL/blob/main/system_figure.png))
 ## Getting Started
 To reproduce the results discussed in the pre-print, please follow the steps below:
 
