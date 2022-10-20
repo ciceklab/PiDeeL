@@ -19,14 +19,16 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    ```
 3. Download the dataset
    https://zenodo.org/record/7228791
-   \\
+   ```
    Extract the zip into /reproduce/data/ folder
+   ```
 
 4. Download the pyNMR library
-
+   ```
    https://github.com/bennomeier/pyNMR/tree/c58d1500dc7c540dcd2aaf28bdf8a660e7f496ff
    Move the files to /reproduce/reproduction_scripts/pNNMR_lib
-   
+   ```
+
 3. Run the run_reproduction.py
    ```
    conda activate PiDeel
