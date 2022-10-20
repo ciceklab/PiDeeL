@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/reproduce/data/FID-samples/
+/reproduce/data/Dataset_Labels.xlsx

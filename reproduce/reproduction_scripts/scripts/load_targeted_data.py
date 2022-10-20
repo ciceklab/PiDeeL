@@ -16,7 +16,7 @@ from hyper_config import *
 
 # file_path print
 # print(ultimate_path)
-excel_file_path = os.path.join(ultimate_path, "reproduce/data/zenodo/Dataset_Labels.xlsx")
+excel_file_path = os.path.join(ultimate_path, "reproduce/data/Dataset_Labels.xlsx")
 # excel_path print
 print(excel_file_path, " xlxs loaded")
 # excel read
@@ -50,7 +50,7 @@ def preprocess_spectrum(path):
 
 spectra = []
 for fid_sample in fid_sample_name:
-    path = os.path.join(ultimate_path, "reproduce/data/zenodo/FID_samples/{}/4/".format(fid_sample))
+    path = os.path.join(ultimate_path, "reproduce/data/zenodo/FID-samples/{}/4/".format(fid_sample))
     if not os.path.exists(path):
         print("File not found: {}".format(path))
         continue

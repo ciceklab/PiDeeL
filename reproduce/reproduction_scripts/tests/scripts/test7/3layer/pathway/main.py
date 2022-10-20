@@ -172,16 +172,7 @@ for SEED in SEEDS:
         test_pred_probas = test_pred_probas.cpu().numpy()
         test_preds = [1 if i >= 0.5 else 0 for i in test_pred_probas[:, 1]]
         cm, auroc, aupr, prec, rec, f1, acc = measure_performance(test_preds, test_pred_probas[:, 1], y_test[:, 2])
-        for s in range(len(labels_test)):
-            print(
-                f"duration = {labels_test[:, 1][s]:.0f}, event = {labels_test[:, 0][s]:.0f}, grade = {labels2_test[s]:.0f}, risk score = {model(features_test)[:, 0][s]:.3f}, predicted grade =  {F.sigmoid(model(features_test)[:, 1][s]):.0f}")
-        print(f"Confusion Matrix: {cm}")
-        print(f"AUC-ROC: {auroc}")
-        print(f"AUC-PR: {aupr}")
-        print(f"Precision: {prec}")
-        print(f"Recall: {rec}")
-        print(f"F1-score: {f1}")
-        print(f"Accuracy: {acc}")
+
         metrics["auroc"].append(auroc)
         metrics["aupr"].append(aupr)
         metrics["precision"].append(prec)
