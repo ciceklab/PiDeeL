@@ -16,7 +16,8 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    conda env create --name PiDeeL --file = PiDeeL.yml
    ```
 3. Download the dataset
-   https://zenodo.org/record/7215568
+   https://zenodo.org/record/7228791
+   \\
    Extract the zip into /reproduce/data/ folder
 
 4. Download the pyNMR library
