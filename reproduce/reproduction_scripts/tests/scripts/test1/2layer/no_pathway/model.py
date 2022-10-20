@@ -1,0 +1,24 @@
+import torch.nn as nn
+import torch.nn.functional as F
+import torch
+
+
+
+class Net(nn.Module):
+    def __init__(self, input_dim, output_dim):
+        super(Net, self).__init__()
+        self.input_dim = input_dim
+        self.output_dim = output_dim
+        self.fc1 = nn.Linear(self.input_dim, 138)
+        self.fc2 = nn.Linear(138, self.output_dim)
+        
+    def forward(self, x):
+        hid = F.relu(self.fc1(x))
+        out = (self.fc2(hid))
+        return out
+    
+    
+def initialize_weights(m):
+    if type(m) == nn.Linear:
+        torch.nn.init.kaiming_uniform_(m.weight)
+        m.bias.data.fill_(0.01)

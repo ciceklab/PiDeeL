@@ -1,0 +1,26 @@
+import torch.nn as nn
+import torch.nn.functional as F
+import torch
+
+
+class Net(nn.Module):
+    def __init__(self, input_dim, output_dim, pathway_info):
+        super(Net, self).__init__()
+        self.input_dim = input_dim
+        self.output_dim = output_dim
+        self.hidden_dim = pathway_info.shape[1]
+        self.fc1 = nn.Linear(self.input_dim, self.hidden_dim)
+        self.fc2 = nn.Linear(self.hidden_dim, self.output_dim)
+        self.pathway_info = pathway_info.float()
+
+    def forward(self, x):
+        pathway = torch.matmul(x, (self.pathway_info * self.fc1.weight.t())) + self.fc1.bias
+        pathway = F.relu(pathway)
+        out = torch.sigmoid(self.fc2(pathway))
+        return out
+    
+    
+def initialize_weights(m):
+    if type(m) == nn.Linear:
+        torch.nn.init.kaiming_uniform_(m.weight)
+        m.bias.data.fill_(0.01)
