@@ -44,7 +44,7 @@ cols_stand = ['2-hydroxyglutarate', '3-hydroxybutyrate', 'Acetate', \
 device = torch.device(f"cuda:0")
 
 c_indices = []
-for i in range(10):
+for i in range(150):
     non_pathway_info = np.zeros((37, 138))
     while np.sum(non_pathway_info) < 468:
         where_row = np.random.choice(37)
