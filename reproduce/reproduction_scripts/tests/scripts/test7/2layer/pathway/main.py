@@ -171,7 +171,6 @@ for SEED in SEEDS:
         test_pred_probas = test_pred_probas.cpu().numpy()
         test_preds = [1 if i >= 0.5 else 0 for i in test_pred_probas[:, 1]]
         cm, auroc, aupr, prec, rec, f1, acc = measure_performance(test_preds, test_pred_probas[:, 1], y_test[:, 2])
-
         metrics["auroc"].append(auroc)
         metrics["aupr"].append(aupr)
         metrics["precision"].append(prec)
@@ -186,19 +185,19 @@ for SEED in SEEDS:
         torch.save(model.state_dict(),
                    ultimate_path + f"/reproduce/reproduction_scripts/tests/models/test7/{task}/{SEED}_{i}net.pth")
 
-with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test5/{task}/c_index.txt", "w") as f:
+with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test7/{task}/c_index.txt", "w") as f:
     for c_index in c_indices:
         f.write("%f\n" % c_index)
-with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test5/{task}/auroc.txt", "w") as f:
+with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test7/{task}/auroc.txt", "w") as f:
     for auroc in metrics["auroc"]:
         f.write("%f\n" % auroc)
-with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test5/{task}/aupr.txt", "w") as f:
+with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test7/{task}/aupr.txt", "w") as f:
     for aupr in metrics["aupr"]:
         f.write("%f\n" % aupr)
-with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test5/{task}/precision.txt", "w") as f:
+with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test7/{task}/precision.txt", "w") as f:
     for precision in metrics["precision"]:
         f.write("%f\n" % precision)
-with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test5/{task}/recall.txt", "w") as f:
+with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test7/{task}/recall.txt", "w") as f:
     for recall in metrics["recall"]:
         f.write("%f\n" % recall)
 with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test5/{task}/f1.txt", "w") as f:

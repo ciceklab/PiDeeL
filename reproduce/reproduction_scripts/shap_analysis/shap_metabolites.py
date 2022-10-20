@@ -9,15 +9,15 @@ sys.path.insert(1, "../../../../../../")
 
 from hyper_config import *
 
-with open("../../../pred_quant.pickle", "rb") as f:
+with open("../scripts/pred_quant.pickle", "rb") as f:
     pred_quant = pickle.load(f)
-with open("../../../grade.pickle", "rb") as f:
+with open("../scripts/grade.pickle", "rb") as f:
     grade = pickle.load(f)
-with open("../../../events.pickle", "rb") as f:
+with open("../scripts/events.pickle", "rb") as f:
     events = pickle.load(f)
-with open("../../../survival.pickle", "rb") as f:
+with open("../scripts/survival.pickle", "rb") as f:
     survival = pickle.load(f)
-with open("../../../pathway_info.pickle", "rb") as f:
+with open("../scripts/pathway_info.pickle", "rb") as f:
     pathway_info = pickle.load(f)
 
 
@@ -25,7 +25,6 @@ with open("../../../pathway_info.pickle", "rb") as f:
 from sklearn.model_selection import KFold
 import matplotlib.pyplot as plt
 import numpy as np
-from model import Net, initialize_weights, Net2
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 import shap

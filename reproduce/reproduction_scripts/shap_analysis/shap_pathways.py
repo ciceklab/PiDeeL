@@ -9,16 +9,17 @@ sys.path.insert(1, "../../../../../../")
 
 from hyper_config import *
 
-with open("../../../pred_quant.pickle", "rb") as f:
+with open("../scripts/pred_quant.pickle", "rb") as f:
     pred_quant = pickle.load(f)
-with open("../../../grade.pickle", "rb") as f:
+with open("../scripts/grade.pickle", "rb") as f:
     grade = pickle.load(f)
-with open("../../../events.pickle", "rb") as f:
+with open("../scripts/events.pickle", "rb") as f:
     events = pickle.load(f)
-with open("../../../survival.pickle", "rb") as f:
+with open("../scripts/survival.pickle", "rb") as f:
     survival = pickle.load(f)
-with open("../../../pathway_info.pickle", "rb") as f:
+with open("../scripts/pathway_info.pickle", "rb") as f:
     pathway_info = pickle.load(f)
+
 
 
 
@@ -191,7 +192,6 @@ for SEED in SEEDS:
         pathway_tests.append(pathway_test)
         all_shap.append(shap_values)
 
-pdb.set_trace()
 ba = np.reshape(all_shap[0][0], (77, 138))
 ab = np.reshape(pathway_tests[0], (77, 138))
 for i in range(1, 15):
