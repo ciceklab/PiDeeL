@@ -114,6 +114,13 @@ print("Figure 2 saved")
 os.system('python boxplot3.py')
 print("Figure 3 saved")
 
+print("Shape analysis:")
+os.system("../shap_analysis")
+os.system("python shap_metabolites.py")
+os.system("python shap_pathways.py")
+print("Shap analysis finished")
+print("Figure 4 saved")
+
 print("All done")
 
 
