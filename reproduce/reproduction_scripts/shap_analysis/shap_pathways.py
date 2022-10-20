@@ -198,7 +198,7 @@ for i in range(1, 15):
     ba = np.append(ba, all_shap[i][0], axis=0)
     ab = np.append(ab, pathway_tests[i], axis=0)
 df = pd.DataFrame(ab)
-pdb.set_trace()
+
 
 mean_shap = np.mean(ba, axis=0)
 # indices of the biggest 30 mean shap values
