@@ -32,7 +32,7 @@ for task in tasks:
 tasks = ["2layer/pathway", "3layer/pathway", "4layer/pathway"]
 
 for task in tasks:
-    with open (ultimate_path +f"/reproduce/reproduction_scripts/tests/logs/test7/{task}/c_indices.txt", "r") as f:
+    with open (ultimate_path +f"/reproduce/reproduction_scripts/tests/logs/test7/{task}/c_index.txt", "r") as f:
         for lines in f:
             concordence[f"{task}_multitask"].append(float(lines.strip()))
 
