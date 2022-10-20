@@ -40,6 +40,7 @@ Distributed under the MIT License.
 ## Contact
 
 Gun Kaynar - http://gun.kaynar.bilkent.edu.tr/
+
 A. Ercument Cicek - http://ciceklab.cs.bilkent.edu.tr/ercument
 
 
