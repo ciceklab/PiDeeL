@@ -31,12 +31,16 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    Move the files to /reproduce/reproduction_scripts/pNNMR_lib
    ```
 
-3. Run the run_reproduction.py
+5. Run the reproduction scripts
    ```
    conda activate PiDeel
    python run_reproduction.py
    ```
-   
+6. Get the reproduced figures
+   ```
+   Figures are under reproduce/reproduction_scripts/figures/
+   ```
+ 
 ## License
 
 Distributed under the MIT License.
