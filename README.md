@@ -30,13 +30,17 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    https://github.com/bennomeier/pyNMR/tree/c58d1500dc7c540dcd2aaf28bdf8a660e7f496ff
    Move the files to /reproduce/reproduction_scripts/pNNMR_lib
    ```
-
-5. Run the reproduction scripts
+5. Set the path
+   ```
+   Open hyper_config.py
+   Change the ultimate_path variable to path/to/PiDeeL 
+   ```
+6. Run the reproduction scripts
    ```
    conda activate PiDeel
    python run_reproduction.py
    ```
-6. Get the reproduced figures
+7. Get the reproduced figures
    ```
    Figures are under reproduce/reproduction_scripts/figures/
    ```
