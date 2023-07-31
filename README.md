@@ -23,39 +23,39 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
 
 1. Download the dataset
    https://zenodo.org/record/7228791
-   ```
+   
    Extract the zip into /reproduce/data/ folder
-   ```
+   
 
 2. Download the pyNMR library
-   ```
+   
    https://github.com/bennomeier/pyNMR/tree/c58d1500dc7c540dcd2aaf28bdf8a660e7f496ff
    Move the files to /reproduce/reproduction_scripts/pNNMR_lib
-   ```
+   
 3. Set the path
-   ```
+   
    Open hyper_config.py
    Change the ultimate_path variable to path/to/PiDeeL 
-   ```
+   
 4. Run the reproduction scripts
    ```
    conda activate PiDeel
    python run_reproduction.py
    ```
 5. Get the reproduced figures
-   ```
+   
    Figures are under reproduce/reproduction_scripts/figures/
-   ```
+   
 ### Prediction using pretrained PiDeeL
 1. Go to /run
-   ```
+   
    You can use the sample metabolite quantification features as input, or you can use the automated metabolite quantification pipeline from [Cakmakci et al.](https://github.com/ciceklab/targeted_brain_tumor_margin_assessment) to quantify your HRMAS NMR spectroscopy data.
-   ```
+   
 2. Select the parameters.
-   ```
+   
    --layer: select a pretrained model among 2-layer, 3-layer and 4-layer PiDeeL (2, 3, 4)
    --dev: select the device to use the model. (gpu or cpu) 
-   ```
+   
 3. Run the command below with the sample arguments
    ```
    python predict.py --layer 3 --dev gpu
