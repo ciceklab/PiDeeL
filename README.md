@@ -49,7 +49,7 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
 ### Prediction using pretrained PiDeeL
 1. Go to /run
    ```
-   python predict.py  
+   You can use the sample metabolite quantification features as input, or you can use the automated metabolite quantification pipeline from [Cakmakci et al.](https://github.com/ciceklab/targeted_brain_tumor_margin_assessment) to quantify your HRMAS NMR spectroscopy data.
    ```
 2. Select the parameters.
    ```
