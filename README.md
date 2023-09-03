@@ -17,7 +17,7 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    ```
 2. Create conda environment
    ```
-   conda env create --name PiDeeL --file = PiDeeL.yml
+   conda env create --name PiDeeL --file PiDeeL.yml
    ```
 ### Reproduction
 
