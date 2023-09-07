@@ -4,7 +4,7 @@
 The source code of the pre-print: Pathway-informed deep learning model for survival analysis and pathological classification of gliomas
 
 
-![alt text](https://github.com/ciceklab/PiDeeL/blob/main/system_figure.png)
+![alt text](https://github.com/ciceklab/PiDeeL/blob/main/system_fig.png)
 
 
 ## Getting Started
@@ -17,7 +17,7 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    ```
 2. Create conda environment
    ```
-   conda env create --name PiDeeL --file = PiDeeL.yml
+   conda env create --name PiDeeL --file PiDeeL.yml
    ```
 ### Reproduction
 
