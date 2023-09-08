@@ -1,3 +1,3 @@
-ultimate_path = "/Users/gunkaynar/Documents/PiDeeL"
+ultimate_path = "/path/to/PiDeeL"
 
 
