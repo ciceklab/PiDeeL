@@ -31,7 +31,8 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    openpyxl
    sksurv
    pycox
-   matplotlib  
+   matplotlib
+   shap
    ```
 ### Prediction using pretrained PiDeeL
 1. Go to /run
