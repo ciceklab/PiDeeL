@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 import pandas as pd
 pathway_info=[]
-with open("/home/gunkaynar/targeted_survival/scripts/result.csv") as f:
+with open("result.csv") as f:
     for index, lines in enumerate(f):
         if index == 0:
             continue

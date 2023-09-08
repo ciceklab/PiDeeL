@@ -6,8 +6,10 @@ import torch.nn.functional as F
 import pandas as pd
 import os
 import sys
-sys.path.insert(1, '../pyNMR_lib')
-import nmrDataMod as ndm
+import pynmr
+import pynmr.model.parser.topSpin as T
+import pynmr.model.processor as P
+import pynmr.model.operations as O
 from torch import nn
 device = torch.device("cpu")
 sys.path.insert(1, "../")
@@ -38,19 +40,24 @@ grade = [0 if i == "Benign Glioma" else 1 for i in grade]
 
 def preprocess_spectrum(path):
     # print(path, " loaded")
-    data = ndm.nmrData(path, "TopSpin")
-    shiftPoints = 70
-    data.leftShift(0, 1, shiftPoints)
-    data.lineBroadening(1, 2, 10)
-    data.fourierTransform(1, 2)
-    phase = data.autoPhase0(2, 0, -50000, 50000)
-    data.phase(2, 3, phase)
-    return np.absolute(data.allFid[3][0])
+    #return np.absolute(data.allFid[3][0])
+
+    data = T.TopSpin(path)
+    Processor = P.Processor([O.LeftShift(70),
+                         O.LineBroadening(10),
+                         O.FourierTransform(),
+                         O.Phase0D(190)])
+    Processor.runStack(data)
+
+    #pdb.set_trace()
+    return np.absolute(data.allFid[2][0])
+
+
 
 
 spectra = []
 for fid_sample in fid_sample_name:
-    path = os.path.join(ultimate_path, "reproduce/data/zenodo/FID-samples/{}/4/".format(fid_sample))
+    path = os.path.join(ultimate_path, "reproduce/data/FID-samples/{}/4/".format(fid_sample))
     if not os.path.exists(path):
         print("File not found: {}".format(path))
         continue
@@ -235,7 +242,7 @@ for column in df:
     df[column] = pd.to_numeric(df[column],errors = 'coerce')
 
 pathway_info=[]
-with open("/home/gunkaynar/targeted_survival/scripts/result.csv") as f:
+with open(ultimate_path + "/run/result.csv") as f:
     for index, lines in enumerate(f):
         if index == 0:
             continue

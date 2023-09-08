@@ -119,6 +119,9 @@ sample_quant= scaler.transform(sample_quant)
 sample_quant = torch.as_tensor(sample_quant).float().to(device)
 pathway_info = torch.as_tensor(pathway_info).to(device)
 model = Net(37,1,pathway_info).to(device)
-model.load_state_dict(torch.load(f"PiDeeL_{layer}layer.pth"))
+if dev == "cpu":
+    model.load_state_dict(torch.load(f"PiDeeL_{layer}layer.pth",map_location=torch.device('cpu') ))
+else:
+    model.load_state_dict(torch.load(f"PiDeeL_{layer}layer.pth"))
 risk_scores = model(sample_quant)
 print(risk_scores)
