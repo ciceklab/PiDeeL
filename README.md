@@ -29,7 +29,7 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    scikitlearn
    pynmr
    openpyxl
-   sksurv
+   scikit-survival
    pycox
    matplotlib
    shap
