@@ -15,12 +15,12 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    ```
    git clone https://github.com/ciceklab/PiDeeL/
    ```
-2. Create conda environment
+2a. Create conda environment
    ```
    conda env create --name PiDeeL --file PiDeeL.yml
    ```
 
-2. Or you can download dependencies yourself
+2b. Or you can download the dependencies yourself
    ```
    torch
    numpy
