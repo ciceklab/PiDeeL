@@ -1,0 +1,36 @@
+Name,Metabolism,Environmental Information Processing,Organismal Systems,Human Diseases,Genetic Information Processing,Cellular Processes
+Carbohydrate metabolism,1,0,0,0,0,0
+Signal transduction,0,1,0,0,0,0
+Metabolism of other amino acids,1,0,0,0,0,0
+Glycan biosynthesis and metabolism,1,0,0,0,0,0
+Energy metabolism,1,0,0,0,0,0
+Metabolism of terpenoids and polyketides,1,0,0,0,0,0
+Biosynthesis of other secondary metabolites,1,0,0,0,0,0
+Nervous system,0,0,1,0,0,0
+Endocrine and metabolic disease,0,0,0,1,0,0
+Digestive system,0,0,1,0,0,0
+Amino acid metabolism,1,0,0,0,0,0
+Translation,0,0,0,0,1,0
+Drug resistance: antimicrobial,0,0,0,1,0,0
+Membrane transport,0,1,0,0,0,0
+Folding, sorting and degradation,0,0,0,0,1,0
+Cancer: overview,0,0,0,1,0,0
+Neurodegenerative disease,0,0,0,1,0,0
+Infectious disease: parasitic,0,0,0,1,0,0
+Metabolism of cofactors and vitamins,1,0,0,0,0,0
+Cell motility,0,0,0,0,0,1
+Signaling molecules and interaction,0,1,0,0,0,0
+Lipid metabolism,1,0,0,0,0,0
+Cellular community - prokaryotes,0,0,0,0,0,1
+Sensory system,0,0,1,0,0,0
+Endocrine system,0,0,1,0,0,0
+Substance dependence,0,0,0,1,0,0
+Cell growth and death,0,0,0,0,0,1
+Cellular community - eukaryotes,0,0,0,0,0,1
+Environmental adaptation,0,0,1,0,0,0
+Excretory system,0,0,1,0,0,0
+Nucleotide metabolism,1,0,0,0,0,0
+Cardiovascular disease,0,0,0,1,0,0
+Infectious disease: bacterial,0,0,0,1,0,0
+Xenobiotics biodegradation and metabolism,1,0,0,0,0,0
+Drug resistance: antineoplastic,0,0,0,1,0,0

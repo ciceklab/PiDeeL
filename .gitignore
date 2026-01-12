@@ -1,3 +1,6 @@
+# Large log files
+nohup.out
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,8 +130,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-/reproduce/data/FID-samples/
-/reproduce/data/Dataset_Labels.xlsx
+
+# PiDeeL specific ignores
+/reproduction/pideel_data/targeted/
+/reproduction/logs/
+/reproduction/models/
+/reproduction/plots/
+/reproduction/test_logs/
 *.DS_Store
 .idea/
 checkpoint.pt
+

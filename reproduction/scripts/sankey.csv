@@ -1,0 +1,119 @@
+0,Alanine,Mineral absorption,0.6760069602204285
+1,Glutamine,Mineral absorption,1.0406219288749208
+2,Glycine,Mineral absorption,0.5683751275473163
+3,Isoleucine,Mineral absorption,0.46935778029970465
+4,Methionine,Mineral absorption,0.5603997594598249
+5,Serine,Mineral absorption,0.4768029445539646
+6,Threonine,Mineral absorption,0.4233483378121871
+7,Valine,Mineral absorption,0.46666339772292964
+8,Acetate,Metabolic pathways,0.5992394620724968
+9,Alanine,Metabolic pathways,0.7544365132810819
+10,Arginine,Metabolic pathways,0.5823454276954134
+11,Aspartate,Metabolic pathways,0.6988033128624356
+12,Glutamate,Metabolic pathways,0.8720088791873971
+13,Glutamine,Metabolic pathways,1.1613536928794843
+14,Glycine,Metabolic pathways,0.6343173586891263
+15,Isoleucine,Metabolic pathways,0.5238121322525942
+16,Methionine,Metabolic pathways,0.6254166975330663
+17,Ornithine,Metabolic pathways,0.5323260056965573
+18,Serine,Metabolic pathways,0.5321210759341167
+19,Threonine,Metabolic pathways,0.47246472695817127
+20,Valine,Metabolic pathways,0.5208051504960681
+21,Alanine,Alanine| aspartate and glutamate metabolism,0.8404478144165974
+22,Aspartate,Alanine| aspartate and glutamate metabolism,0.7784720207245555
+23,Glutamate,Alanine| aspartate and glutamate metabolism,0.971424293182195
+24,Glutamine,Alanine| aspartate and glutamate metabolism,1.2937565398316762
+25,Arginine,mTOR signaling pathway,0.7236683581994453
+26,Alanine,D-Amino acid metabolism,1.0281147135111657
+27,Arginine,D-Amino acid metabolism,0.7935961370105926
+28,Aspartate,D-Amino acid metabolism,0.9523001010113387
+29,Glutamate,D-Amino acid metabolism,1.188337445527273
+30,Glutamine,D-Amino acid metabolism,1.5826445276980814
+31,Glycine,D-Amino acid metabolism,0.8644213237606877
+32,Methionine,D-Amino acid metabolism,0.8522918727950592
+33,Ornithine,D-Amino acid metabolism,0.7254317483403053
+34,Serine,D-Amino acid metabolism,0.7251524785803023
+35,Threonine,D-Amino acid metabolism,0.6438552864948032
+36,Alanine,Central carbon metabolism in cancer,1.0456094536321006
+37,Arginine,Central carbon metabolism in cancer,0.8071002314423928
+38,Aspartate,Central carbon metabolism in cancer,0.9685047546024113
+39,Glutamate,Central carbon metabolism in cancer,1.20855858866652
+40,Glutamine,Central carbon metabolism in cancer,1.6095753306056082
+41,Glycine,Central carbon metabolism in cancer,0.8791306030030214
+42,Isoleucine,Central carbon metabolism in cancer,0.725976152756066
+43,Methionine,Central carbon metabolism in cancer,0.8667947532866849
+44,Serine,Central carbon metabolism in cancer,0.7374919130753971
+45,Valine,Central carbon metabolism in cancer,0.7218086336922698
+46,Acetate,Protein digestion and absorption,0.9427120076780913
+47,Alanine,Protein digestion and absorption,1.1868650266140581
+48,Arginine,Protein digestion and absorption,0.9161346374055771
+49,Aspartate,Protein digestion and absorption,1.0993439446765758
+50,Glutamate,Protein digestion and absorption,1.3718276135699825
+51,Glutamine,Protein digestion and absorption,1.8270193148700393
+52,Glycine,Protein digestion and absorption,0.9978958806330182
+53,Isoleucine,Protein digestion and absorption,0.8240511816997858
+54,Methionine,Protein digestion and absorption,0.9838935315235788
+55,Serine,Protein digestion and absorption,0.8371226522478064
+56,Threonine,Protein digestion and absorption,0.7432724303025524
+57,Valine,Protein digestion and absorption,0.819320655777908
+58,Acetate,Taurine and hypotaurine metabolism,0.9852139187861078
+59,Alanine,Taurine and hypotaurine metabolism,1.2403745093060294
+60,Glutamate,Taurine and hypotaurine metabolism,1.4336760835296263
+61,Aspartate,Glycine| serine and threonine metabolism,1.198447348117213
+62,Glycine,Glycine| serine and threonine metabolism,1.0878539674801866
+63,Serine,Glycine| serine and threonine metabolism,0.9125873913194513
+64,Threonine,Glycine| serine and threonine metabolism,0.8102767812914029
+65,Aspartate,Biosynthesis of cofactors,1.211790724254616
+66,Glutamate,Biosynthesis of cofactors,1.5121454804479002
+67,Glutamine,Biosynthesis of cofactors,2.013896623995032
+68,Glycine,Biosynthesis of cofactors,1.0999660095264712
+69,Methionine,Biosynthesis of cofactors,1.0845314252448564
+70,Serine,Biosynthesis of cofactors,0.9227480352891317
+71,Valine,Biosynthesis of cofactors,0.9031251553888993
+72,Arginine,Arginine biosynthesis,1.01133614847913
+73,Aspartate,Arginine biosynthesis,1.2135839269341586
+74,Glutamate,Arginine biosynthesis,1.514383146798305
+75,Glutamine,Arginine biosynthesis,2.016876779520394
+76,Ornithine,Arginine biosynthesis,0.9244694072158434
+77,Alanine,Aminoacyl-tRNA biosynthesis,1.3387746893586985
+78,Arginine,Aminoacyl-tRNA biosynthesis,1.0333928771179681
+79,Aspartate,Aminoacyl-tRNA biosynthesis,1.240051577079065
+80,Glutamate,Aminoacyl-tRNA biosynthesis,1.5474110754196557
+81,Glutamine,Aminoacyl-tRNA biosynthesis,2.060863839501147
+82,Glycine,Aminoacyl-tRNA biosynthesis,1.125618935303936
+83,Isoleucine,Aminoacyl-tRNA biosynthesis,0.9295234420573597
+84,Methionine,Aminoacyl-tRNA biosynthesis,1.1098243924040065
+85,Serine,Aminoacyl-tRNA biosynthesis,0.9442679610464412
+86,Threonine,Aminoacyl-tRNA biosynthesis,0.8384056271554122
+87,Valine,Aminoacyl-tRNA biosynthesis,0.9241874449308519
+88,Aspartate,Neuroactive ligand-receptor interaction,1.2738291021924422
+89,Glutamate,Neuroactive ligand-receptor interaction,1.5895607064727624
+90,Glycine,Neuroactive ligand-receptor interaction,1.1562794518163855
+91,o-Acetylcholine,Neuroactive ligand-receptor interaction,1.0214815871251859
+92,Alanine,Biosynthesis of amino acids,1.3762497197452483
+93,Arginine,Biosynthesis of amino acids,1.0623196485747777
+94,Aspartate,Biosynthesis of amino acids,1.2747631464725584
+95,Glutamate,Biosynthesis of amino acids,1.5907262632049983
+96,Glutamine,Biosynthesis of amino acids,2.118551615959517
+97,Glycine,Biosynthesis of amino acids,1.1571273019764472
+98,Isoleucine,Biosynthesis of amino acids,0.9555426964643849
+99,Methionine,Biosynthesis of amino acids,1.1408906376502455
+100,Ornithine,Biosynthesis of amino acids,0.9710737792459461
+101,Serine,Biosynthesis of amino acids,0.9706999445717734
+102,Threonine,Biosynthesis of amino acids,0.861874308333538
+103,Valine,Biosynthesis of amino acids,0.950057333909887
+104,Glutamate,Glutathione metabolism,1.7134143820459
+105,Glycine,Glutathione metabolism,1.2463731862135663
+106,Ornithine,Glutathione metabolism,1.0459698930445378
+107,Acetate,Biosynthesis of secondary metabolites,1.2686418661821361
+108,Alanine,Biosynthesis of secondary metabolites,1.5972074716418847
+109,Arginine,Biosynthesis of secondary metabolites,1.2328757315130958
+110,Aspartate,Biosynthesis of secondary metabolites,1.4794271656575344
+111,Glutamate,Biosynthesis of secondary metabolites,1.8461183580827907
+112,Glycine,Biosynthesis of secondary metabolites,1.342904812870519
+113,Isoleucine,Biosynthesis of secondary metabolites,1.1089556730651013
+114,Methionine,Biosynthesis of secondary metabolites,1.32406134194785
+115,Ornithine,Biosynthesis of secondary metabolites,1.1269802808855411
+116,Serine,Biosynthesis of secondary metabolites,1.126546426820991
+117,Threonine,Biosynthesis of secondary metabolites,1.0002487667291393
+118,Valine,Biosynthesis of secondary metabolites,1.1025896321271744
