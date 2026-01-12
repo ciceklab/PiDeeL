@@ -105,6 +105,21 @@ Use pretrained models to predict survival risk scores for new samples.
 
 ## Reproducing Paper Results
 
+### Quick Start: Interactive Notebook
+
+The easiest way to reproduce the main comparison figure is using the Jupyter notebook at the repo root:
+
+```bash
+jupyter notebook reproduce_main_comparison.ipynb
+```
+
+**By default**, the notebook uses pretrained model logs included in the repository to generate Figure 2 immediately.
+
+**To retrain models from scratch**, set the `RETRAIN` flag in the notebook:
+```python
+RETRAIN = True  # Set to True to retrain all models instead of using pretrained logs
+```
+
 ### Data Setup
 
 The preprocessed samples are already included in the repository under `reproduction/pideel_data/targeted/`. No additional download is required to reproduce the results.
