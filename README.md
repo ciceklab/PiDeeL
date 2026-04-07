@@ -14,6 +14,10 @@ Published in *Bioinformatics*, Volume 39, Issue 11, November 2023
 
 📄 [Read the paper](https://academic.oup.com/bioinformatics/article/39/11/btad684/7413171)
 
+## ⚠️ Note on Jean-Quartier et al. (Applied Sciences, 2026)
+
+A paper by Jean-Quartier et al. ([link](https://www.mdpi.com/2076-3417/16/2/588)) claims that PiDeeL results could not be reproduced. **This claim is incorrect.** The authors did not contact us before publishing. We reproduce all results in [`reproduce_main_comparison.ipynb`](reproduce_main_comparison.ipynb). See our [full response](RESPONSE_TO_REPLICATION_STUDY.md) for details.
+
 ## Overview
 
 PiDeeL integrates biological metabolic pathway knowledge into the neural network architecture to predict patient survival outcomes. By constraining the network's weights according to metabolite-pathway relationships, PiDeeL achieves better interpretability and performance.
