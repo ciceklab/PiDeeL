@@ -127,7 +127,7 @@ Roughly half of the Jean-Quartier et al. paper is devoted to measuring CO2 emiss
 | January 26, 2026 | Follow-up email to the handling editor — no response |
 | April 6, 2026 | Third email to the handling editor |
 | April 7, 2026 | Handling editor responds: "I do not recall any earlier e-mails. Please deal directly with MDPI." |
-| April 2026 | Formal complaint filed with MDPI editorial office |
+| April 7, 2026 | Formal complaint filed with MDPI editorial office |
 
 ---
 
